@@ -138,7 +138,7 @@ public class JpegSegmentReaderTest
     public void testWithNonJpegFile() throws Exception
     {
         try {
-            JpegSegmentReader.readSegments(new File("Tests/com/drew/imaging/jpeg/JpegSegmentReaderTest.java"), null);
+            JpegSegmentReader.readSegments(new File("src/test/java/com/drew/imaging/jpeg/JpegSegmentReaderTest.java"), null);
             fail("shouldn't be able to construct JpegSegmentReader with non-JPEG file");
         } catch (JpegProcessingException e) {
             // expect exception

@@ -1,12 +1,12 @@
 package com.drew.metadata.xmp;
 
-import java.io.OutputStream;
-
-import com.adobe.xmp.XMPException;
-import com.adobe.xmp.XMPMeta;
-import com.adobe.xmp.XMPMetaFactory;
-import com.adobe.xmp.options.SerializeOptions;
+import com.adobe.internal.xmp.XMPException;
+import com.adobe.internal.xmp.XMPMeta;
+import com.adobe.internal.xmp.XMPMetaFactory;
+import com.adobe.internal.xmp.options.SerializeOptions;
 import com.drew.metadata.Metadata;
+
+import java.io.OutputStream;
 
 public class XmpWriter
 {
